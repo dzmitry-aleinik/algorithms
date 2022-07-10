@@ -67,7 +67,6 @@ def pivot_index(nums)
   -1
 end
 
-
 def pivot_index_final(nums)
   sum = nums.sum
   left_sum = 0

@@ -5,6 +5,9 @@
 # Input: nums = [5,4,-1,7,8]
 # Output: 23
 
+
+# comlexity o(n)
+# space o(n)
 def max_subarray(array)
   current_sum = array[0]
   max_sum = array[0]

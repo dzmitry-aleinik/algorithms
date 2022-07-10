@@ -28,11 +28,11 @@ def reverse_list(head)
   head
 end
 
-def reverse_list_recurse(current, prev = nil)
+def reverse_list(current, prev = nil)
   return prev if current.nil?
 
   next_node = current.next
   current.next = prev
 
-  reverse_list_recurse(next_node, current)
+  reverse_list(next_node, current)
 end
