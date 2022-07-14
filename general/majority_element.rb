@@ -29,7 +29,6 @@ def majority_element(nums)
   major
 end
 
-
 #complexity o(n)
 #space o(1)
 def majority_element_v2(nums)

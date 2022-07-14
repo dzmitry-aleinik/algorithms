@@ -56,7 +56,7 @@ def flood_fill(image, fill_i, fill_j, color)
     j = vertex.split(',')[1].to_i
     image[i][j] = color
 
-    graph[vertex].each do |neibour_vertex|
+    graph[vertex]&.each do |neibour_vertex|
       queue.push(neibour_vertex) unless visited[neibour_vertex]
     end
   end
